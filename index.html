@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Testaufgabe Kaiser</title>
+    </head>
+
+    <body>
+        <!-- Hamburger-Menu -->
+        <input type="checkbox" id="sidebartoggler" name="" value="">
+        <label for="sidebartoggler" class="toggle">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </label>
+        <header>
+            <!-- Logo -->
+            <div id="logo">
+                <img src="graphics/logo.svg">
+            </div>
+            <!-- Navigation -->
+            <div id="navi" class="blur">
+                <ul>
+                    <li><a href="#">What’s New</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Personalize</a>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Sales</a>
+                    <li><a href="#"><img src="graphics/ico_search.svg"></a></li>
+                </ul>
+            </div>
+            <!-- Warenkorb -->
+            <div id="basket"><img src="graphics/basket.svg"></div>
+        </header>
+        <div id="spacer"></div>
+        <div id="content">
+            <div id="product">
+                <h1 class="headline">Feel strong like Lebron</h1>
+                <p class="text">The LeBron 17 LMTD features a large
+                    <b>Max Air</b>
+                    unit in the heel and Zoom Air cushioning for extra
+                    <b>comfort.</b>
+                </p>
+                <p class="text">Knit material wraps your feet for
+                    <b>lightweight</b>
+                    support so you can make quick, powerful moves like a champ.</p>
+                <div id="details">
+                    <img src="graphics/ico_info.svg">
+                    <img src="graphics/ico_delivery.svg">
+                    <img src="graphics/ico_stars.svg">
+                </div>
+            </div>
+            <div id="buy">
+                <form action="/added.php">
+                    <select class="dropdown">
+                        <option value="eu39">EU 39</option>
+                        <option value="eu40">EU 40</option>
+                        <option value="eu41">EU 41</option>
+                        <option value="eu42">EU 42</option>
+                        <option selected="selected" value="eu43">EU 43</option>
+                        <option value="eu44">EU 44</option>
+                        <option value="eu45">EU 45</option>
+                    </select>
+                    <input class="button" type="submit" value="Add to basket">
+                    <p class="price">$249</p>
+                </form>
+            </div>
+        </div>
+        <!-- sidebar ist das mobile Menü -->
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">What’s New</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Personalize</a>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Sales</a>
+             <!--    <li><a href="#"><img src="graphics/ico_search.svg"></a></li>-->
+            </ul>
+        </div>
+    </body>
+</html>
